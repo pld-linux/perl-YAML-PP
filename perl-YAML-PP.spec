@@ -7,7 +7,7 @@
 Summary:	YAML::PP - YAML 1.2 processor
 Name:		perl-YAML-PP
 Version:	0.39.0
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -20,6 +20,9 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
+# Aliases provided by perl main package.
+%define		_noautoreq_perl		Tie::StdArray Tie::StdHash
 
 %description
 YAML::PP is a modular YAML processor.
