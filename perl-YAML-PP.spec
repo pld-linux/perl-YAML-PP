@@ -6,13 +6,13 @@
 %define	pnam	PP
 Summary:	YAML::PP - YAML 1.2 processor
 Name:		perl-YAML-PP
-Version:	0.39.0
-Release:	2
+Version:	0.40.0
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/YAML/%{pdir}-%{pnam}-v%{version}.tar.gz
-# Source0-md5:	9c0dbd23a4770d13525f1c4f59e5080a
+# Source0-md5:	40f281d64cddce19195e4d2bc8d02521
 URL:		http://search.cpan.org/dist/YAML-PP/
 BuildRequires:	perl-devel >= 1:5.8.1
 BuildRequires:	rpm-perlprov >= 4.1-13
